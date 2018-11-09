@@ -1,0 +1,30 @@
+.conteiner {
+	font-family: Arial, Helvetica, sans-serif serif;
+	max-width: 940px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 36px;
+}
+
+span {
+	color:  #fd58b2;	
+}
+
+.block {
+	display: inline-block;
+	text-align: center;
+	width: 33%;
+	float: left;
+}
+
+.block_text {
+	font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+}
