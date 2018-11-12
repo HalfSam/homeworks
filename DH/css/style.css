@@ -1,0 +1,39 @@
+body {
+  color: aliceblue;
+  background: #000000 url(../img/main-bg.jpg);
+  font-family: 'Istok Web', sans-serif;
+}
+.nav-frame{
+  margin-top: 50px;
+  background: #696969 url(../img/fon-frame.jpg) no-repeat;
+  max-width: 1140px;
+  min-height: 500px;
+  text-align: center;
+  background-position: 50% 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  box-shadow: 0 30px 40px 40px rgba(247, 241, 241, 0.137), 0 20px 50px 30px rgba(152, 231, 221, 0.22);
+
+}
+
+.nav-frame__link ul li{
+  text-align: center;
+  list-style: none;
+}
+li{
+  color: azure;
+  background-color: rgb(99, 92, 92);
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  border: 2px solid rgb(36, 29, 29);
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  
+}
+
