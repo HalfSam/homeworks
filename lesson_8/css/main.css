@@ -1,0 +1,19 @@
+body{
+    font-family: Tahoma, serif;
+}
+h1{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+p{
+    margin-top: 15px;
+    font-size: 16px;
+font-weight: 700;
+}
+img{
+    min-height: 70px;
+    min-width: 70px;
+}.block{
+    text-align: center;
+}
