@@ -1,0 +1,29 @@
+body {
+	font-family: Arial, sans-serif;
+}
+span {
+	color:  #fd58b2;	
+}
+p{
+	font-size: 16px;
+font-weight: 600;
+line-height: 22px;
+	
+}
+img{
+	
+	text-align: center;
+}
+
+
+.header{
+	margin-top: 63px;
+	margin-bottom: 36px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 36px;
+}
+.block-box__text{
+	text-align: center;
+}
+
