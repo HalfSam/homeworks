@@ -1,0 +1,55 @@
+body {
+  font-family: serif;
+  background-color: #f9f9f9;
+}
+
+img {
+  max-height: 260px;
+  max-width: 210px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 5% auto;
+}
+
+.header {
+  margin-bottom: 125px;
+  text-align: center;
+}
+
+.container-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.block-box {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.block-box__price {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button {
+  min-height: 55px;
+  min-width: 200px;
+  margin-top: 25px;
+  text-align: center;
+  background-color: transparent;
+  color: #23bac1;
+  border: 2px solid #23bac1;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
