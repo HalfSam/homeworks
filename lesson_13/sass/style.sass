@@ -1,7 +1,7 @@
 @import 'fonts'
 
 body 
-    font-family: 'Myriad Pro Regular' serif-serif
+    font-family: 'Myriad Pro Regular', serif-serif
 
 h2
     margin: 0
@@ -9,7 +9,10 @@ h2
     font-size: 24px
     font-weight: 700
     text-transform: uppercase
-
+.container
+    width: 1600px
+    height: 1535px
+    
 .header
     color: #666666
     &-title
@@ -24,23 +27,7 @@ h2
       font-weight: 400
       color: #f9f9f9 
 
-.grid-item-photo
-    background-image: url('../img/PHOTO/jpg')
 
-.grid-item-2
-    background-image: url('../img/2.jpg')
-
-.grid-item-3
-    background-image: url('../img/3.jpg')
-
-.grid-item-4
-    background-image: url('../img/4.jpg')
-
-.grid-item-5
-    background-image: url('../img/5.jpg')
-
-.grid-item-6
-    background-image: url('../img/2.jpg')
 
 .grid-item-photo,
 .grid-item-2,
@@ -60,3 +47,28 @@ h2
 
 .grid-item-blue
     background-color: #3f729b
+
+.grid
+    
+    display: grid
+    grid-template-areas: 'a a b b' 'c d e f' 'g g h j'
+
+.grid-item-photo
+    grid-area: a
+
+.grid-item-grey
+    grid-area: b
+.grid-item-2
+    grid-area: c
+.grid-item-3
+    grid-area: d
+.grid-item-4
+    grid-area: e
+.grid-item-5
+    grid-area: f
+.grid-item-insta
+    grid-area: g
+.grid-item-6
+    grid-area: h
+.grid-item-blue
+    grid-area: j
