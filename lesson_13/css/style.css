@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("../fonts/MyriadPro-Regular.eot");
+  src: url("../fonts/MyriadPro-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Regular.woff") format("woff"), url("../fonts/MyriadPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Bold';
+  src: url("../fonts/MyriadPro-Bold.eot");
+  src: url("../fonts/MyriadPro-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/MyriadPro-Bold.woff") format("woff"), url("../fonts/MyriadPro-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Myriad Pro Regular' serif-serif;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header {
+  color: #666666;
+}
+
+.header-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #666666;
+}
+
+.footer {
+  color: #f9f9f9;
+}
+
+.footer-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #f9f9f9;
+}
+
+.grid-item-photo {
+  background-image: url("../img/PHOTO/jpg");
+}
+
+.grid-item-2 {
+  background-image: url("../img/2.jpg");
+}
+
+.grid-item-3 {
+  background-image: url("../img/3.jpg");
+}
+
+.grid-item-4 {
+  background-image: url("../img/4.jpg");
+}
+
+.grid-item-5 {
+  background-image: url("../img/5.jpg");
+}
+
+.grid-item-6 {
+  background-image: url("../img/2.jpg");
+}
+
+.grid-item-photo,
+.grid-item-2,
+.grid-item-3,
+.grid-item-4,
+.grid-item-5,
+.grid-item-6 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.grid-item-grey {
+  background-color: #f3f1ef;
+}
+
+.grid-item-insta {
+  background-color: #3f729b;
+}
+
+.grid-item-blue {
+  background-color: #3f729b;
+}
+/*# sourceMappingURL=style.css.map */
